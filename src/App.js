@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App' data-test='component-app'>
       <h1>Learn react</h1>
     </div>
   );

@@ -1,7 +1,26 @@
 # Test Note
 
-watch mode
-after git commit can use a to test again
+npm run test
+
+a test all
+q quit
+w watch mode
+
+Type of Test
+
+- Unit test
+  Test one piece of code
+
+- integration tests
+  multiple unit work together
+
+- Acceptance / End to end test
+  use actual broswer connections to server
+- Function test
+  can be any of the above
+
+Code base test >> test implementation
+Functional tests>> testing behavior
 
 # Getting Started with Create React App
 
