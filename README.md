@@ -1,3 +1,8 @@
+# Test Note
+
+watch mode
+after git commit can use a to test again
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
