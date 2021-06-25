@@ -1,34 +1,3 @@
-# Test Note
-
-npm run test
-
-a test all
-q quit
-w watch mode
-
-Type of Test
-
-- Unit test
-  Test one piece of code
-
-- integration tests
-  multiple unit work together
-
-- Acceptance / End to end test
-  use actual broswer connections to server
-- Function test
-  can be any of the above
-
-Code base test >> test implementation
-Functional tests>> testing behavior
-
-Remove data-test attribute
-npm i --save-dev babel-plugin-react-remove-properties
-npm run eject
-Update babel config
-create production build
-Data test gone
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -37,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -45,12 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -60,7 +29,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -96,6 +65,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
