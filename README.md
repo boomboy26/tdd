@@ -22,6 +22,13 @@ Type of Test
 Code base test >> test implementation
 Functional tests>> testing behavior
 
+Remove data-test attribute
+npm i --save-dev babel-plugin-react-remove-properties
+npm run eject
+Update babel config
+create production build
+Data test gone
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
