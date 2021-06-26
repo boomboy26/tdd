@@ -1,14 +1,12 @@
-import Enzyme, { shallow } from 'enzyme';
-import EnzymeAdapter from '@wojtekmaj/enzyme-adapter-react-17';
+import { shallow } from 'enzyme';
+
 import checkPropTypes from 'check-prop-types';
 
 import Congrats from './Congrats';
 import { findByTestAttr } from '../test/testUtils';
-import { prop } from 'cheerio/lib/api/attributes';
-Enzyme.configure({
-  adapter: new EnzymeAdapter(),
-});
+
 const defaultProps = { success: false };
+
 const setup = (props = {}) => {
   const setupProps = { ...defaultProps, ...props };
   return shallow(<Congrats {...setupProps} />);
