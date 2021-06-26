@@ -5,8 +5,9 @@ import App from './App';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-test('renders learn react link', () => {
+test('renders app component', () => {
   const wrapper = shallow(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const appCompoent = wrapper.find("[data-test='app-component']");
+
+  expect(appCompoent).toHaveLength(1);
 });
