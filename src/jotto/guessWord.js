@@ -26,7 +26,7 @@ describe('no words guessed', () => {
         })
     })
     test('create Guessedword table with one row'.()=>{
-        
+        const guessedWordRows = findByTestAttr()
     })
 });
 
