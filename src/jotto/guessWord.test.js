@@ -6,7 +6,7 @@ import { findByTestAttr } from '../test/testUtils';
 
 const setup = (state = {}) => {
   // TODO : apply state
-  const wrapper = mount(<App />);
+  const wrapper = mount(<JottoHome />);
   //add value to input
   const inputBox = findByTestAttr(wrapper, 'input-box');
   inputBox.simulate('change', { target: { value: 'train' } });
@@ -17,17 +17,15 @@ const setup = (state = {}) => {
 };
 
 describe('no words guessed', () => {
-    let wrapper;
-    beforeEach(()=>{
-        wrapper = setup({
-            secretWord : 'party',
-            success : false,
-            guessedWords :[]
-        })
-    })
-    test('create Guessedword table with one row'.()=>{
-        const guessedWordRows = findByTestAttr()
-    })
+  let wrapper;
+  beforeEach(() => {
+    wrapper = setup({
+      secretWord: 'party',
+      success: false,
+      guessedWords: [],
+    });
+  });
+  test('create Guessedword table with one row', () => {});
 });
 
 describe('some words guessed', () => {});
